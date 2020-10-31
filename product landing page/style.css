@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background:#c8d6e5;
+  
+}
+:root{
+  --font1: 'Syne Mono', monospace;
+  --color1:#e84118;
+  --color2:#4bcffa;
+}
+
+
+#nav-bar{
+  height:60px;
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+  width:100%;
+  
+}
+nav img ul {
+display:flex;
+list-style:none; 
+ 
+ 
+  margin:10px;
+  margin-right:20px;
+  padding:10px;
+  text-decoration:none;
+  color:black;
+  
+}
+nav ul{
+   position:fixed;
+  top:0;
+  list-style:none;
+  display:flex;
+  margin:20px 70px;
+}
+.logo{
+     position:fixed;
+  top:0;
+}
+
+nav ul li a{
+  text-decoration:none;
+  padding:15px;
+  font-weight:bold;
+  font-style:italic;
+  font-size:1.5rem;
+ 
+}
+
+.container{
+  margin-top:50%;
+  max-width:800px;
+  display:block;
+  margin:10px auto;
+  width:50%;
+  border:2px solid red;
+ 
+}
+ h1{
+   display:flex;
+ justify-content:center;
+   margin:5px 5px;
+  align-items:center;
+  color:#273c75;
+   border:1px solid;
+     font-size:2.5rem;
+}
+#Features{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+#logo1{
+  display:block;
+  width:50%;
+  height:140px;
+  margin:10px 10px;
+  padding:5px 5px;
+}
+#logo2{
+  display:block;
+  width:70%;
+  height:140px;
+  margin:18px 10px;
+  padding:5px 15px;
+}
+#logo3{
+  display:block;
+  width:70%;
+  height:140px;
+  margin:18px 10px;
+  padding:5px 15px;
+ 
+}
+h3{
+  display:inline-flex;
+  padding:40px 20px;
+  color:var(--color2);
+  font-size:1.8rem
+}
+p{
+  font-family:var(--font1);
+  text-align:center;
+  line-height:30px;
+  color:var(--color1);
+}
+#How-it-work{
+  max-width:800px;
+  display:block;
+  margin:auto 15%;
+}
+form{
+  height:50px;
+  border:2px solid black;
+  display:flex;
+  justify-content:center;
+  margin:2rem;
+  padding:10px;
+  
+}
+form input[type="email"]{
+  margin:1px 15px;
+  padding:12px 5px;
+  width:15rem
+} 
+  
+input[type=email] {
+  background-color: #3CBC8D;
+  color: white;
+}
+form input[type="submit"]{
+  margin:0px 12px;
+  padding:1px 5px;
+}
+.btn{
+  background-color:#0fbcf9;
+  border-radius:5px;
+  box-shadow:rbga(0,0,0,0.4);
+  transition-duration: 0.4s;
+  cursor:pointer;
+}
+.btn:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.grid-container{
+  
+  display:block;
+  margin:20px auto;
+  width:80%;
+  height:500px;
+ 
+}
+.price{
+   display:grid;
+  height:400px;
+  grid-template-columns:repeat(3,300px);
+  align-content:center;
+  margin:10px;
+  padding:3px;
+  
+}
+.item{
+    height: 300px;
+    width: 250px;
+    border: 2px solid;
+    margin: 20px;
+    padding: 26px 30px;
+    justify-items: center;
+  background-color:#32ff7e;
+}
+h4{
+    text-align:center;
+  font-size:1.5rem;
+  color:#0652DD;
+  margin:px 60px;
+  padding:5px 5px
+}
+span {
+  
+  text-align:center;
+  font-size:1.5rem;
+  color:#EA2027;
+  margin:10px 60px;
+  padding:35px 5px
+}
+.footer{
+  display:flex;
+  
+  margin-bottom:20px;
+   height:70px;
+  margin-top:5px;
+  justify-content:flex-end;
+  padding:0px 25px
+  
+}
+.footer ul{
+  display:flex;
+  margin:15px;
+    
+}
+.footer ul li{
+  list-style:none;
+  margin:10px;
+  font-size:1.2rem;
+  color:#57606f;
+ 
+}
+@media screen and (max-width:600px){
+  body{background-color:yellow;
+  }
+  
+}
