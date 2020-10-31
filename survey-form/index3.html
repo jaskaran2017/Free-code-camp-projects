@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-form</title>
+    <link rel="stylesheet" href="style3.css">
+   
+</head>
+
+<body>
+    
+    <h1 id="title"> Popular Cell Phones Survey</h1>
+    <p id="description">
+        Survey of most popular Cell Phones in India
+    </p>
+
+    <form id="survey-form">
+        <div class="form-survey">
+
+            <label for="Name"id="name-label"> Name :
+                <input type="text" id="name" name="name" required placeholder="Enter your Name">
+            </label>
+        </div>
+        <div class="form-survey">
+
+            <label for="Age"id="number-label"> Age :<span class="clue">(optional)</span>
+                <input type="number" id="number" name="age" required min="18" max="150" placeholder="Enter your Age">
+            </label>
+        </div>
+        <div class="form-survey">
+
+            <label for="Email" id="email-label"> Email :
+                <input type="Email" id="email" name="email" required placeholder="Enter your Email">
+            </label>
+        </div>
+        <div class="form-survey">
+
+            <label for="Contact No"  id="contact-label"> Contact No :
+                <input type="number" id="contact" name="contact" min="10" max="15" placeholder="Enter your Contact No">
+            </label>
+        </div>
+
+        <div class="form-survey">
+        <label for="Role" id="dropdown"> Which option best describe your role ?
+            <select name="Role" id="Role">
+                <option disabled="" selected="" value="">Select current role</option>
+                <option value="Student">Student</option>
+                <option value="Working profesional">Working profesional</option>
+                <option value="House wife">House wife</option>
+                <option value="Own a bussiness">Own a bussiness</option>
+            </select>
+        </label>
+        </div>
+
+        <div class="form-survey">
+        <label>Which Cell-Phone brand is your favourite ?
+        </label>
+        <label for="mobile"> <input type="radio" id="phone1" name="Cell-Phone" value="apple"/>Apple</label>
+        <label for="mobile"> <input type="radio" id="phone2" name="Cell-Phone" value="samsung"/>Samsung</label>
+        <label for="mobile"> <input type="radio" id="phone3" name="Cell-Phone" value="nokia"/>Nokia</label>
+        <label for="mobile"> <input type="radio" id="phone4" name="Cell-Phone" value="bbm"/>Blackbarry</label>
+        <label for="mobile"> <input type="radio" id="phone5" name="Cell-Phone"value="Lenovo"/>Lenovo</label>
+        <label for="mobile"> <input type="radio" id="phone6" name="Cell-Phone"value="xiaomi"/>Xiaomi</label>
+       
+        </div>
+
+        <div class="form-survey">
+        <label for="recomendation" id="check-box">Which Cell-Phone brand would you like to recomend ?
+        </label>
+        <label for="mobile"> <input type="checkbox" id="phone1" name="Cell-Phone"value="apple"/>Apple</label>
+        <label for="mobile"> <input type="checkbox" id="phone2" name="Cell-Phone" value="samsung"/>Samsung</label>
+        <label for="mobile"> <input type="checkbox" id="phone3" name="Cell-Phone" value="nokia"/>Nokia</label>
+        <label for="mobile"> <input type="checkbox" id="phone4" name="Cell-Phone" value="bbm"/>Blackbarry</label>
+        <label for="mobile"> <input type="checkbox" id="phone5" name="Cell-Phone" value="lenovo"/>Lenovo</label>
+        <label for="mobile"> <input type="checkbox" id="phone6" name="Cell-Phone" value="xiaomi"/>Xiaomi</label>
+    </div>
+    <div class="form-survey">
+        <label for="View"> What do you like about your favourite Cell-Phone brand ?
+        </label>
+        <textarea name="option" id="textarea" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
+    </div>
+    <div class="form-survey">
+
+        <button type="submit" class="btn" id="submit">Submit</button>
+    </div>
+    </form>
+
+</body>
+
+</html>

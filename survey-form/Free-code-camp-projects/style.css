@@ -1,0 +1,72 @@
+
+        body{
+            margin: 0;
+            padding: 0;
+            background:  rgb(195, 202, 96);
+        }
+        
+        h1{
+        font-family: 'Luckiest Guy', cursive;
+         text-align: center;
+         font-weight: bold;
+         color: orangered;
+         display: flex;
+         margin: auto;
+         width: 33%; 
+         padding: 17px 0px;  
+        }
+        #p1{
+            margin: auto;
+            text-align: center;
+            font-family: 'Sansita Swashed', cursive;
+            font-size: 1.5rem;
+            
+            padding: 10px;
+        }
+        #img-div{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 458px;
+            padding: 19px;
+            
+        }
+        #img-caption{
+            font-family: 'Chilanka', cursive;
+            font-size: 1.0rem;
+             text-align: center;
+            padding: 7px 0px;
+        }
+        #tribute-info{
+            font-family: 'Josefin Slab', serif;
+            font-size: 1.0rem;
+            font-weight: bolder;
+            
+            text-align: center;
+            padding: 7px 0px;
+            margin: 5px 100px;
+        
+        }
+        h2{
+            font-family: 'Luckiest Guy', cursive;
+            text-align: center;
+            font-weight: bold;
+            color: purple;
+            
+            margin: auto;
+            width: 66%; 
+            padding: 17px 0px;  
+           
+        }
+        #footer{
+            
+            padding: 12px 12px;
+            margin: auto;
+            display: block;
+            width:41%;
+            color: red;
+            font-size: 1.5rem;
+            font-style: italic;
+
+        }
